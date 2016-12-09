@@ -23,7 +23,7 @@ body {
 }
 
 .navbar-inverse .navbar-brand {
-	color: #FFFFF;
+	color: #FFFFFF;
 }
 
 .navbar-inverse li {
@@ -42,16 +42,42 @@ main .row {
 }
 
 h2 {
-	color: #FFBDBD;
+	color: #D4D300;
 }
 
 h3 {
 	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+
+h4 {
+	font-family: Papyrus, Rockwell, sans-serif;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+h5 {
+	font-family: Papyrus, Rockwell, sans-serif;
+	margin-top: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: right;
+	font-weight: bold;
+}
+
+h1 {
+	padding-top: 25px;
 }
 
 .jumbotron {
 	margin-top: 15px;
-	padding-bottom: 25px;
+	padding-top: 25px;
 	color: #FFFFFF;
 	text-align: left;
 	background-image: url(images/background.jpg);
@@ -59,10 +85,21 @@ h3 {
 	background-size: cover;
 }
 
+.jumbotron a:link {
+	text-decoration: none;
+	color: azure;
+}
+
+.jumbotron a:visited {
+	color: beige;
+}
+
+.jumbotron a:hover {
+	color: #FFFC0B;
+}
+
 #section1 {
 	color: #0673C0;
-	float: left;
-	display: block;
 	text-align: left;
 }
 
@@ -70,45 +107,52 @@ h3 {
 	border: none;
 	color: #0673C0;
 	text-align: center;
-	font-size: 20px;
 }
 
 #section2 li {
 	list-style-type: none;
-	text-align: left;
-	font-size: 20px;
+	text-align: center;
+	font-size: 18px;
+	width: 100%;
+}
+
+#section2 li p {
+	font-style: italic;
 }
 
 #section3 {
 	border: none;
 	color: #0673C0;
 	text-align: center;
-	float: left;
 }
 
 #section3 li {
 	list-style-type: none;
-	text-align: left;
-	font-size: 20px;
+	text-align: center;
+	font-size: 18px;
 }
 
 #section4 {
 	border: none;
 	color: #0673C0;
 	text-align: center;
-	font-size: 20px;
-	float: right;
-	padding-right: 10px;
+	display: inline;
+	padding-bottom: 25px;
+	padding-top: 25px;
 }
 
 #section4 li {
 	list-style-type: none;
 	text-align: left;
+	font-size: 18px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	width: 100%;
 }
 
-#section4 li {
-	list-style-type: none;
-	text-align: left;
+#section4 li p {
+	text-align: justify;
+	font-style: italic;
 }
 
 #section5 {
@@ -129,4 +173,17 @@ footer {
 
 footer a {
 	color: #ffffff;
+}
+
+footer a:link {
+	text-decoration: none;
+	color: azure;
+}
+
+footer a:visited {
+	color: beige;
+}
+
+footer a:hover {
+	color: #FFFC0B;
 }
